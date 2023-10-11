@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@font-face {
+    font-family: 'nato-regular';
+    src: url('../fonts/NotoSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'nato-light';
+    src: url('../fonts/NotoSans-LightItalic.ttf');
+}
+
+@font-face {
+    font-family: 'nato-bold';
+    src: url('../fonts/NotoSans-Bold.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+:root {
+    --black:black;
+    --white:white;
+}
+
+
+@import './blocks/blocks'

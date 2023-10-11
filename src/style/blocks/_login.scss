@@ -1,0 +1,147 @@
+
+.reg_image{
+    display: block;
+    margin: 0 auto;
+    width: 220px;
+    height: 220px;
+}
+.center{
+    display: flex;
+    margin-top: 70px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    h1{
+        padding: 30px 0px 15px 0px;
+        font-weight: 600;
+        font-size: 37px;
+        text-align: center;
+        font-family: 'Inter', sans-serif;;
+    }
+    p{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        opacity: 0.6;
+        font-family: 'Inter', sans-serif;
+    }
+}
+
+/* Sidebar.css */
+
+.telegram-input {
+    background-color: #ffffff00;
+    border: 1px solid #d1d1d1;
+    border-radius: 12px;
+    padding: 14px;
+    width: 340px;
+    display: block;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin: auto;
+    margin: 20px 0px 20px 0px;
+    transition: 0.3s;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+  }
+  .one{
+    margin-top: 40px;
+  }
+  .telegram-input:hover{
+    transition: 0.3s;
+    border: 1px solid #1d93e2;
+  }
+  ::placeholder{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .telegram-input:focus {
+    border: solid 1px #1f6da1;
+    box-shadow: 0px 0px 0px 1px #1f6da1;
+  }
+  
+
+  .telegram-button {
+    background-color: #3291ec;
+    color: #fff;
+    border: none;
+    margin-top: 30px;
+    border-radius: 13px;
+    padding: 16px 146px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .telegram-button2 {
+    background-color: #3291ec;
+    color: #fff;
+    border: none;
+    margin-top: 30px;
+    border-radius: 13px;
+    padding: 16px 135px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  .telegram-button:hover {
+    background-color: #abddff;
+  }
+  
+
+
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-checkbox input[type="checkbox"] {
+    display: none;
+  }
+  
+  .custom-checkbox label {
+    position: relative;
+    padding-left: 30px; 
+    cursor: pointer;
+  }
+  
+  .custom-checkbox .label {
+    font-size: 16px;
+  }
+  
+  .custom-checkbox label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px; /* Width of the checkbox */
+    height: 20px; /* Height of the checkbox */
+    border: 2px solid #0088cc; /* Border color of the checkbox */
+    background-color: #fff; /* Background color of the checkbox */
+  }
+  
+
+  .custom-checkbox input[type="checkbox"]:checked + label:before {
+    background-color: #0088cc; 
+  }
+  
+
+  .custom-checkbox input[type="checkbox"]:checked + label:after {
+    content: "\2713";
+    position: absolute;
+    left: 5px; 
+    top: 1px;
+    font-size: 18px; 
+    color: #fff; 
+  }
+  
+  .custom-radio{
+    display: flex;
+    column-gap: 8px;
+  }
