@@ -93,7 +93,7 @@ const Register = () => {
             <p className='error-msg'>{registrationMsg}</p>
           )}
         </div>
-        <Link to='/login'>login</Link>
+        <Link to='/login'>Login</Link>
       </div>
     </div>
   );
